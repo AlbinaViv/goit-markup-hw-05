@@ -736,6 +736,9 @@ header .container {
     background-color: var(--success); 
 } 
  
+.footer-subscribe {
+    margin-left: 80px;
+}
 .footer-title-input {
     color: var(--white-background);
     margin-bottom: 16px;
@@ -809,6 +812,8 @@ header .container {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     display: flex;
+    font-weight: 500; 
+    color: var(--white-background);
     max-width: 264px;
     margin-bottom: 16px; 
 } 
