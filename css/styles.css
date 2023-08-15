@@ -745,15 +745,21 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 16px;
-} 
-.input {
-    display: flex;
-    border: 1px;
-}
-.form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+} 
+
+
+.form-input {
+    flex-direction: column;
+    background: var(--dark);
+    color: var(--white-background);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.0;
+    letter-spacing: 0.3;
     padding: 8px;
     border: 1px solid #fff;
     width: 264px;
@@ -781,13 +787,29 @@ header .container {
     min-width: 165px;
     max-height: 40px;
  }
+
+ .form-button:hover {
+    color: var(--white-background);
+    background-color: var(--pressed-state);
+    border: none;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+ }
+ .form-button:focus {
+    color: var(--white-background);
+    background-color: var(--pressed-state);
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ }
+
  .fram-footer-icons {
     display: flex;
     align-items: center;
     width: 24px; 
     height: 24px; 
     background-color: var(--primary-dark);
-    border-radius: 50%;
     list-style: none;
     justify-content: center;
     gap: 24px;
