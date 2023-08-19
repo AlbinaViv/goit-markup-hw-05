@@ -903,7 +903,6 @@ header .container {
 
 }
 .modal-form-comment {
-    color: rgba(46, 47, 66, 0.4); 
     width: 100%; 
     height: 120px;
     font-size: 12px; 
@@ -924,14 +923,16 @@ header .container {
 
 }  
 .modal-form-comment::placeholder {
-    color: currentColor;
-
+    color: rgba(46, 47, 66, 0.4); 
 }  
 
 .modal-form-checkbox {
     margin-bottom: 24px; 
 }
-.checkbox:checked {
+.checkbox {
+
+}
+.checkbox:checked + .modal-form-agreement .modal-form-disc {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--pressed-state);
@@ -953,6 +954,7 @@ header .container {
 
 }
 .modal-form-disc {
+    position: relative;
     width: 16px; 
     height: 16px; 
     border: 1px solid rgba(46, 47, 66, 0.4); 
