@@ -931,7 +931,10 @@ header .container {
 .modal-form-checkbox {
     margin-bottom: 24px; 
 }
-.checkbox {
+.checkbox:checked {
+    background-color: var(--pressed-state);
+    border: none;
+    fill: var(--pressed-state);
 
 
 }
