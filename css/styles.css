@@ -946,6 +946,8 @@ header .container {
 }
 .modal-form-agreement {
     display: block; 
+    display: flex;
+    align-items: center;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
