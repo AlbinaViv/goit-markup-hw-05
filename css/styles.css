@@ -894,11 +894,9 @@ header .container {
 }
 
 .modal-form-icon:focus {
-    border-color: var(--primary-dark);
     fill: var(--primary-dark); 
-
-
 }
+
 .modal-form-conteiner {
     margin-bottom: 16px;
 
