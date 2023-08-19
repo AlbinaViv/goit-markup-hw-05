@@ -924,14 +924,14 @@ header .container {
     margin-bottom: 24px; 
 }
 .checkbox {
-    
+
 }
 .modal-form-agreement {
     display: block; 
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: 1.17; 
     letter-spacing: 0.04em;
     color: var(--subtle-text);
 
@@ -949,4 +949,17 @@ header .container {
 
 }
 .btn {
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background);
+    cursor: pointer;
+    background-color: var(--primary-dark);
+    border-radius: 4px; 
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
