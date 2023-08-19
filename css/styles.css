@@ -936,7 +936,8 @@ header .container {
 .checkbox:checked + .modal-form-agreement .modal-form-disc {
     background-color: var(--pressed-state);
     border: none;
-    fill: var(--light)
+    fill: var(--light);
+    border-color: var(--pressed-state);
 
 
 }
