@@ -878,6 +878,8 @@ header .container {
 
 .modal-form-input:focus {
     border-color: var(--primary-dark);
+}
+.modal-form-input:focus + .modal-form-icon{
     fill: var(--primary-dark); 
 }
 .modal {
