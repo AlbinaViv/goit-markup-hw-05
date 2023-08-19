@@ -924,7 +924,8 @@ header .container {
     margin-bottom: 24px; 
 }
 .checkbox {
-}}
+    
+}
 .modal-form-agreement {
     display: block; 
     font-size: 12px;
@@ -945,7 +946,7 @@ header .container {
     align-items: center; 
     justify-content: center; 
     fill: transparent; 
-    
+
 }
 .btn {
 }
