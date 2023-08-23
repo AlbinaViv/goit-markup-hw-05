@@ -931,6 +931,7 @@ header .container {
     margin-bottom: 24px; 
 }
 .checkbox {
+    color: var(--text);
 
 }
 .checkbox:checked + .modal-form-agreement .modal-form-disc {
